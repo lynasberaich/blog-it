@@ -14,7 +14,7 @@ app.use(cookieParser());
 const salt = bcrypt.genSaltSync(10);
 const secret = "ddb3rgb1ifb2q";
 
-mongoose.connect('mongodb+srv://blog:zpE0x15TAvYkgRUz@cluster0.lvwxc.mongodb.net/');
+mongoose.connect('mongodb+srv://blog:1GShO1E7DWCLH5nO@cluster0.lvwxc.mongodb.net/');
 
 
 
@@ -67,5 +67,5 @@ app.post('/logout', (req,res) => {
 app.listen(4000);
 
 
-//zpE0x15TAvYkgRUz
-//mongodb+srv://blog:zpE0x15TAvYkgRUz@cluster0.lvwxc.mongodb.net/
+//1GShO1E7DWCLH5nO
+//mongodb+srv://blog:1GShO1E7DWCLH5nO@cluster0.lvwxc.mongodb.net/
